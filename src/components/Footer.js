@@ -9,7 +9,7 @@ const Footer = () => {
       <h3>
         Made With
         <img
-          src="./assets/love.gif"
+          src="../assets/love.gif"
           alt="love"
           height={60}
           width={80}
@@ -17,7 +17,7 @@ const Footer = () => {
         />
         From India
       </h3>
-      <h6>All Right Reserved &copy; TECHINFOYT - 2024</h6>
+      <h6>All Right Reserved &copy; ONLINEHOUSING - 2024</h6>
       <div className="d-flex flex-row p-2">
         <p className="me-4" title="Github">
           <Link to="/">

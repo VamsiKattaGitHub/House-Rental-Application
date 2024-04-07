@@ -10,6 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "../styles/listing.css";
+import MyComponent from "../components/Map"
 import {
   FaBed,
   FaBath,
@@ -118,6 +119,7 @@ const Listing = () => {
           </Link>
         </div>
       </div>
+      <MyComponent />
     </Layout>
   );
 };
