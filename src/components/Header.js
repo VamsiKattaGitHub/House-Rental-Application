@@ -10,7 +10,8 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-sm-top">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <BsBuilding size={30} className="me-2" /> House Marketplace
+          <img src="./assets/favicon.png"width={53} className="me-2"/>
+           House Marketplace
           </Link>
           <button
             className="navbar-toggler"
@@ -55,6 +56,15 @@ const Header = () => {
                   Profile
                 </NavLink>
               </li>
+              {/* <li className="nav-item">
+                <NavLink
+                  className={`nav-link ${({ isActive }) =>
+                    isActive ? "active" : "inactive"}`}
+                  to="/signup"
+                >
+                  Sign Up/Sign In
+                </NavLink>
+              </li> */}
             </ul>
           </div>
         </div>
